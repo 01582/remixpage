@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@font-face {
+  font-family: gn;
+  src: url("/fonts/GeneralSans-Medium.woff2");
+}
+@font-face {
+  font-family: latin;
+  src: url(/fonts/DancingScript-Regular.woff2);
+}
+
+.hero {
+  display: flex;
+  vertical-align: middle;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 450px;
+  justify-content: center;
+  gap: 40px;
+}
+
+.hero-image {
+  width: 100%;
+  position: absolute;
+  height: auto;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.hero p {
+  color: white;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    gap: 60px;
+    height: 500px;
+  }
+
+  .hero p {
+    font-size: 1.3rem;
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.heading {
+  
+ 
+  color: black;
+  font-family: gn;
+  
+  font-weight: 500;
+  line-height: 6w;
+  font-size: 3vw;
+  text-align: center;
+  position: relative;
+ 
+
+}
+
+
+p {
+  text-align: center;
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+
+}
+
+.joinbtn {
+
+  width: 8.9375rem;
+  height: 2.125rem;
+  border-radius: 0.5rem;
+  background: rgba(0, 0, 0, 0.87);
+  color: #FFF;
+  text-align: center;
+
+  /* Body/Medium/Regular */
+
+
+  font-family: "gn";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  /*    Buttons Interaction       */
+  cursor: pointer;
+
+}
+
+.joinbtn:hover {
+  border-radius: 0.7rem;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.box1 {
+  display: flex;
+  width: 20.25rem;
+  height: 2.375rem;
+  border-radius: 0.75rem;
+  background: #000;
+  margin-top: 4.69rem;
+  align-items: center;
+  text-align: center;
+  
+
+}
+
+.box1 p {
+  color: #FFF;
+  font-size: 1rem;
+  margin-left: 2.25vw;
+
+
+
+}
+
+.box2 {
+  display: flex;
+  width: 18.6875rem;
+  height: 2.1875rem;
+  border-radius: 0.75rem;
+  background: #000;
+  margin-top: 1.81rem;
+  align-items: center;
+  text-align: center;
+}
+
+.box2 p {
+  color: #FFF;
+  font-size: 0.8rem;
+  margin-left: 2vw;
+  font-family: gn;
+
+}
+
+::selection {
+  color: #38B99E;
+  background-color: transparent;
+}
